@@ -11,12 +11,24 @@
 
     <title>Portfólio - João Matheus</title>
 
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="style.css"
+    />
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" 
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
 
 </head>
 
 <body>
     
+    <!--header start-->
     <header>
         <div class="menu">
             <a href="#home" class="logo">João Matheus</a>
@@ -30,55 +42,166 @@
         </div>
     </header>
 
+    <!--home start-->
     <section class="home" id="home">
 
-        <h3 class="before-name"></h3>
-        <h1 class="name"></h1>
-        <h2 class="after-name"></h2>
+        <h3 class="before-name">Olá, meu nome é</h3>
+        <h1 class="name">João Matheus.</h1>
+        <h2 class="after-name">Engenheiro de Software</h2>
 
         <div class="home-img">
-            <img src="" alt="">
+            <img src="images/eu_mesmo.jfif" alt="Foto pessoal">
         </div>
         
     </section>
 
+    <!--about start-->
     <section class="about" id="about">
 
         <h2 class="section-title">Sobre mim</h2>
         <div class="horizontal-line"></div>
         <p class="content-text">
-            
+            Atualmente tenho 21 anos e estou cursando Engenharia de Software na Universidade de Brasília.
+            Estou interessado em aprender novas tecnologias e em aplicar meus conhecimentos, obtidos em sala de aula, em projetos reais.
+            Tenho inglês avançado e motivação para continuar a aprimorá-lo.
+            Busco experiência profissional na área e me desenvolver pessoalmente e profissionalmente.
         </p>
+        <div class="horizontal-line"></div>
         
     </section>
 
+    <!--skills start-->
     <section class="skills" id="skills">
 
         <h2 class="section-title">Skills</h2>
         <div class="horizontal-line"></div>
-        <p class="content-text">
-            
-        </p>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/icon-html5.png" width="50px" height="50px">
+                <h3>HTML 5</h3>
+                <p>Linguagem de marcação para a Web.</p>
+            </div>
+
+            <div class="box">
+                <img src="images/icon-CSS3.png" width="50px" height="50px">
+                <h3>CSS</h3>
+                <p>Adiciona estilização a um projeto Web.</p>
+            </div>
+
+        </div>
+        <div class="box-container-middle"></div>
+
+            <div class="box">
+                <img src="images/icon-java.png" width="50px" height="50px">
+                <h3>Java</h3>
+                <p>Linguagem de programação.</p>
+            </div>
+
+            <div class="box">
+                <img src="images/icon-javascript.png" width="50px" height="50px">
+                <h3>Javascript</h3>
+                <p>Linguagem de programação.</p>
+            </div>
+
+            <div class="box">
+                <img src="images/icon-C.png" width="50px" height="50px">
+                <h3>C</h3>
+                <p>Linguagem de programação.</p>
+            </div>
+
+        </div>
+        <div class="box-container"></div>
+
+            <div class="box">
+                <img src="images/icon-git.png" width="50px" height="50px">
+                <h3>Git</h3>
+                <p>Sistema de controle de versões distribuído.</p>
+            </div>
+
+            <div class="box">
+                <img src="images/icon-figma.png" width="50px" height="50px">
+                <h3>Figma</h3>
+                <p>Editor gráfico de vetor e prototipagem.</p>
+            </div>
+
+        </div>
         
     </section>
 
+    <!--projects start-->
     <section class="projects" id="projects">
 
         <h2 class="section-title">Projetos</h2>
         <div class="horizontal-line"></div>
-        <p class="content-text">
-            
-        </p>
+        <div class="projects-list">
+
+            <div class="project-item">
+                <h3 class="project-title">PokeRanking</h3>
+                <p class="project-desc">
+                    Projeto de um site que fornece um sistema de ranqueamento e classificação de pokémons de todas as gerações.
+                    Nele você pode rankear os pokémons aplicando filtros, fazer comparações entre criaturas diversas, 
+                    além de visualizar informações e detalhes individuais dos pokémons.
+                    O projeto foi desenvolvido por uma equipe de 6 pessoas e nele trabalhei com a 
+                    documentação, o protótipo e o Front-End do projeto.
+                </p>
+                <ul class="project-tecs">
+                    <li>Javascript</li>
+                    <li>React.js</li>
+                    <li>Node</li>
+                    <li>MongoDB</li>
+                </ul>
+                <a
+                    href="https://github.com/fga-eps-mds/2022-1-PokeRanking"
+                    target="_blank"
+                    class="project-link"
+                >
+                    <i class="fa-brands fa-github fa-2xl"></i>
+                </a>
+            </div>
+
+            <div class="project-item">
+                <h3 class="project-title">Projeto de Orientação a Objetos</h3>
+                <p class="project-desc">
+                    Projeto pessoal realizado para a aprendizagem 
+                    da Programação Orientada a Objetos, um paradigma 
+                    de programação muito utilizado atualmente.
+                </p>
+                <ul class="project-tecs">
+                    <li>Java</li>
+                    <li>Java Swing</li>
+                </ul>
+                <a
+                    href="https://github.com/JoaoSchmitz/Trabalho-OO"
+                    target="_blank"
+                    class="project-link"
+                >
+                    <i class="fa-brands fa-github fa-2xl"></i>
+                </a>
+            </div>
+
+        </div>
         
     </section>
 
+    <!--contact start-->
     <section class="contact" id="contact">
 
         <h2 class="contact-title">Contato</h2>
         <div class="contact-line"></div>
-        <p class="contact-text">
-            
-        </p>
+        <div class = "social">
+            <a href="https://www.linkedin.com/in/jo%C3%A3o-matheus-de-oliveira-schmitz-a40055269/"
+                target="_blank">
+                <i class='bx bxl-linkedin-square'> LinkedIn</i>
+            </a>
+            <a href="https://github.com/JoaoSchmitz"
+                target="_blank">
+                <i class='bx bxl-github' target="_blank"> GitHub</i>
+            </a>
+            <a href="mailto:jmatheus12349@gmail.com">
+                <i class='bx bxl-gmail'> jmatheus12349@gmail.com</i>
+            </a>
+        </div>
         
     </section>
 
