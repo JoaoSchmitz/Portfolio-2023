@@ -23,6 +23,9 @@
     <link rel="stylesheet" 
         href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
     />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    />
 
 </head>
 
@@ -30,27 +33,23 @@
     
     <!--header start-->
     <header>
-        <div class="menu">
-            <a href="#home" class="logo">João Matheus</a>
+        <a href="#home" class="logo">João Matheus</a>
 
-            <ul class="navbar">
-                <li><a href="#about">Sobre mim</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projetos</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
-        </div>
+        <ul class="navbar">
+            <li><a href="#about">Sobre mim</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
     </header>
 
     <!--home start-->
     <section class="home" id="home">
 
-        <h3 class="before-name">Olá, meu nome é</h3>
-        <h1 class="name">João Matheus.</h1>
-        <h2 class="after-name">Engenheiro de Software</h2>
-
-        <div class="home-img">
-            <img src="images/eu_mesmo.jfif" alt="Foto pessoal">
+        <div>
+            <h3 class="before-name">Olá, meu nome é</h3>
+            <h1 class="name">João Matheus.</h1>
+            <h2 class="after-name">/* Engenheiro de Software */</h2>
         </div>
         
     </section>
@@ -58,22 +57,33 @@
     <!--about start-->
     <section class="about" id="about">
 
-        <h2 class="section-title">Sobre mim</h2>
+        <h2>Sobre mim</h2>
         <div class="horizontal-line"></div>
-        <p class="content-text">
-            Atualmente tenho 21 anos e estou cursando Engenharia de Software na Universidade de Brasília.
-            Estou interessado em aprender novas tecnologias e em aplicar meus conhecimentos, obtidos em sala de aula, em projetos reais.
-            Tenho inglês avançado e motivação para continuar a aprimorá-lo.
-            Busco experiência profissional na área e me desenvolver pessoalmente e profissionalmente.
-        </p>
-        <div class="horizontal-line"></div>
+        <div class="about-content">
+            <ul class="content-text">
+                <li>Atualmente tenho 21 anos e estou cursando Engenharia de Software na Universidade de Brasília.</li>
+                <br>
+                <li>Estou interessado em aprender novas tecnologias e em aplicar meus conhecimentos,
+                    obtidos em sala de aula, em projetos reais.</li>
+                <br>
+                <li>Tenho inglês avançado e motivação para continuar a aprimorá-lo.</li>
+                <br>
+                <li>Busco experiência profissional na área e me desenvolver pessoalmente e profissionalmente.</li>
+                <br>
+                <li>Tenho experiência com Front-End mas planejo experimentar com outras áreas antes de decidir minha especialização.</li>
+            </ul>
+    
+            <div class="about-img">
+                <img src="images/eu-mesmo.jpeg" alt="Foto pessoal">
+            </div>
+        </div>
         
     </section>
 
     <!--skills start-->
     <section class="skills" id="skills">
 
-        <h2 class="section-title">Skills</h2>
+        <h2>Skills</h2>
         <div class="horizontal-line"></div>
         <div class="box-container">
 
@@ -88,9 +98,6 @@
                 <h3>CSS</h3>
                 <p>Adiciona estilização a um projeto Web.</p>
             </div>
-
-        </div>
-        <div class="box-container-middle"></div>
 
             <div class="box">
                 <img src="images/icon-java.png" width="50px" height="50px">
@@ -109,9 +116,6 @@
                 <h3>C</h3>
                 <p>Linguagem de programação.</p>
             </div>
-
-        </div>
-        <div class="box-container"></div>
 
             <div class="box">
                 <img src="images/icon-git.png" width="50px" height="50px">
@@ -132,17 +136,19 @@
     <!--projects start-->
     <section class="projects" id="projects">
 
-        <h2 class="section-title">Projetos</h2>
+        <h2>Projetos</h2>
         <div class="horizontal-line"></div>
         <div class="projects-list">
 
             <div class="project-item">
-                <h3 class="project-title">PokeRanking</h3>
+                <h3 class="project-title">## PokeRanking</h3>
                 <p class="project-desc">
-                    Projeto de um site que fornece um sistema de ranqueamento e classificação de pokémons de todas as gerações.
-                    Nele você pode rankear os pokémons aplicando filtros, fazer comparações entre criaturas diversas, 
+                    # Projeto de um site que fornece um sistema de ranqueamento e classificação de pokémons de todas as gerações.
+                    <br>
+                    # Nele você pode rankear os pokémons aplicando filtros, fazer comparações entre criaturas diversas, 
                     além de visualizar informações e detalhes individuais dos pokémons.
-                    O projeto foi desenvolvido por uma equipe de 6 pessoas e nele trabalhei com a 
+                    <br>
+                    # O projeto foi desenvolvido por uma equipe de 6 pessoas e nele trabalhei com a 
                     documentação, o protótipo e o Front-End do projeto.
                 </p>
                 <ul class="project-tecs">
@@ -155,17 +161,18 @@
                     href="https://github.com/fga-eps-mds/2022-1-PokeRanking"
                     target="_blank"
                     class="project-link"
+                    class="link-box"
                 >
-                    <i class="fa-brands fa-github fa-2xl"></i>
+                    <i class="fa-brands fa-github fa-2xl"> <span class="repo"> Repositório do projeto</span></i>
                 </a>
             </div>
 
             <div class="project-item">
-                <h3 class="project-title">Projeto de Orientação a Objetos</h3>
+                <h3 class="project-title">## Projeto de Orientação a Objetos</h3>
                 <p class="project-desc">
-                    Projeto pessoal realizado para a aprendizagem 
+                    # Projeto pessoal realizado para a aprendizagem 
                     da Programação Orientada a Objetos, um paradigma 
-                    de programação muito utilizado atualmente.
+                    de programação muito utilizado.
                 </p>
                 <ul class="project-tecs">
                     <li>Java</li>
@@ -175,8 +182,9 @@
                     href="https://github.com/JoaoSchmitz/Trabalho-OO"
                     target="_blank"
                     class="project-link"
+                    class="link-box"
                 >
-                    <i class="fa-brands fa-github fa-2xl"></i>
+                    <i class="fa-brands fa-github fa-2xl"> <span class="repo"> Repositório do projeto</span></i>
                 </a>
             </div>
 
@@ -186,21 +194,26 @@
 
     <!--contact start-->
     <section class="contact" id="contact">
-
-        <h2 class="contact-title">Contato</h2>
-        <div class="contact-line"></div>
-        <div class = "social">
-            <a href="https://www.linkedin.com/in/jo%C3%A3o-matheus-de-oliveira-schmitz-a40055269/"
-                target="_blank">
-                <i class='bx bxl-linkedin-square'> LinkedIn</i>
-            </a>
-            <a href="https://github.com/JoaoSchmitz"
-                target="_blank">
-                <i class='bx bxl-github' target="_blank"> GitHub</i>
-            </a>
-            <a href="mailto:jmatheus12349@gmail.com">
-                <i class='bx bxl-gmail'> jmatheus12349@gmail.com</i>
-            </a>
+        <div class="footer">
+            <div class="main">
+                <div class="col">
+                    <h2>Contato</h2>
+                    <div class="horizontal-line"></div>
+                    <div>
+                        <a href="https://www.linkedin.com/in/jo%C3%A3o-matheus-de-oliveira-schmitz-a40055269/"
+                            target="_blank">
+                            <i class='bx bxl-linkedin-square'> LinkedIn</i>
+                        </a>
+                        <a href="https://github.com/JoaoSchmitz"
+                            target="_blank">
+                            <i class='bx bxl-github' target="_blank"> GitHub </i>
+                        </a>
+                        <a href="mailto:jmatheus12349@gmail.com">
+                            <i class='bx bxl-gmail'> jmatheus12349@gmail.com </i>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
         
     </section>
